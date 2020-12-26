@@ -12,12 +12,12 @@ body{
     background-repeat: no-repeat;
     /* background-position: center; */
     background-color: #070607;
-    color: #fff;      
+    color:#E8DEB2;      
    }
 
 .container-fluid{
     height: 100%;
-    padding: 3% 15% 30%;
+    padding: 3% 13% 10%;
 }
 
 .navbar{
@@ -26,7 +26,7 @@ body{
 
 .navbar-brand{
     font-family: 'Ubuntu', sans-serif;
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: bold;
     
 }
