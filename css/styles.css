@@ -17,7 +17,7 @@ body{
 
 .container-fluid{
     height: 100%;
-    padding: 3% 15% 7%;
+    padding: 3% 15% 30%;
 }
 
 .navbar{
@@ -47,6 +47,7 @@ h1{
     font-weight: 900;
     font-size: 3rem;
     line-height: 1.5;
+    text-align: center;
     /* text-shadow: white 30px -50px 10px ; */
   
 }
@@ -54,7 +55,22 @@ h1{
 .big-heading{
     display: flex;
     justify-content: center;
-    margin: 10% 0;
-    background-color: #949494;
+    align-items: center;
+    padding: 3em;
+    margin: 10% 10%;    
+    background: rgba(46, 46, 46, 0.3) ;
+    height: 150px;
+    border-radius: 2em;
+    backdrop-filter: blur(30px);
+    border: solid 2px transparent;
+    background-clip: padding-box;
+    box-shadow: 10px 10px 10px  rgba(184, 133, 125, 0.03);
     
 }
+
+/* .heading{
+    position: absolute;
+    z-index: 3;
+    top: 310px;
+    left: 25%;
+} */
