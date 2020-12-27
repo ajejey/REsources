@@ -6,6 +6,12 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
 #title{
     background-image: url(../images/firewood1.jpg);
     background-size: cover;
@@ -17,7 +23,7 @@ body{
 
 .container-fluid{
     /* height: 100%; */
-    padding: 3% 8% 1%;
+    padding: 3% 8% 7%;
 }
 
 .navbar{
@@ -113,3 +119,35 @@ body{
     }
 }
 
+#features{
+    background-color: rgb(230, 230, 230);
+}
+
+.feature-icon{     
+    padding: 7% 3%;
+    text-align: center;
+}
+
+.wood-log{
+    background-image: url(../images/wooden-logs-in-forest.jpg);
+    min-height: 600px;
+}
+
+.why-us-heading{
+    margin: 0 0 0 20%;
+    padding: 3em;
+    color: white;
+    background: rgba(46, 46, 46, 0.3) ;    
+    /* border-radius: 1em; */
+    backdrop-filter: blur(30px);
+    border: solid 2px transparent;
+    background-clip: padding-box;
+    box-shadow: 10px 10px 10px  rgba(184, 133, 125, 0.03);
+}
+
+.fourP{
+    padding: 40px;
+}
+.fourP-paragraph{
+    text-align: justify;
+}
