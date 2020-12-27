@@ -12,12 +12,12 @@ body{
     background-repeat: no-repeat;
     /* background-position: center; */
     background-color: #070607;
-    color:#E8DEB2;      
+    color:#fff;      
    }
 
 .container-fluid{
-    height: 100%;
-    padding: 3% 13% 10%;
+    /* height: 100%; */
+    padding: 3% 8% 1%;
 }
 
 .navbar{
@@ -42,7 +42,7 @@ body{
     height: 50px;
 }
 
-h1{
+.heading{
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
     font-size: 3rem;
@@ -53,13 +53,13 @@ h1{
 }
 
 .big-heading{
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
     padding: 3em;
     margin: 10% 10%;    
     background: rgba(46, 46, 46, 0.3) ;
-    height: 150px;
+    /* height: 150px; */
     border-radius: 2em;
     backdrop-filter: blur(30px);
     border: solid 2px transparent;
@@ -68,9 +68,48 @@ h1{
     
 }
 
-/* .heading{
-    position: absolute;
-    z-index: 3;
-    top: 310px;
-    left: 25%;
-} */
+.sub-heading{
+    justify-content: center;
+    text-align: center;
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+
+@media (max-width: 991px){
+    .heading{
+        font-size: 2.4rem;
+        font-weight: 900;
+    }
+    
+}
+@media (max-width: 767px){
+    .heading{
+        font-size: 1.9rem;
+        font-weight: 800;
+    }
+    .sub-heading{
+        font-size: 1rem;
+    }
+    .brand-name{
+        font-size: 1.5rem;
+    }
+    .logo{
+        height: 30px;
+    }
+}
+@media (max-width: 500px){
+    .heading{
+        font-size: 1.13rem;
+        font-weight: 800;
+    }
+    .sub-heading{
+        font-size: 0.6rem;
+    }
+    .brand-name{
+        font-size: 1.3rem;
+    }
+    .logo{
+        height: 26px;
+    }
+}
+
