@@ -185,6 +185,11 @@ body{
 .feature-icon{     
     padding: 7% 3%;
     text-align: center;
+    transition: transform .2s;
+}
+
+.feature-icon:hover {
+    transform: scale(1.05);
 }
 
 .wood-log{
@@ -276,3 +281,15 @@ li{
     height: 100px;
     margin-left: 100px;
 }
+
+
+/* .item {
+    width: 200px;
+    height: 200px;
+    margin: 50px auto;
+    padding-top: 75px;
+    background: #ccc;
+    text-align: center;
+    color: #FFF;
+    font-size: 3em;
+  } */
