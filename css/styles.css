@@ -271,6 +271,32 @@ li{
     padding: 40px;
 }
 
+#testimonials{    
+    text-align: center;
+    background-color: #000000;
+    color: #fff; 
+    padding: 40px 0;   
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press{
+    background-color: #000000;
+    text-align: center;
+    padding-bottom: 3%;
+
+}
+.press-image{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
 #save{
     background-color: #fff;
     padding: 40px 0;
@@ -291,6 +317,7 @@ li{
 .image{
     height: 150px;
 }
+
 
 #contact {
     background-image: url(../images/pexels-jutta-albers-small.jpg);
@@ -378,6 +405,12 @@ li{
     }
     .designation{
         margin-bottom: 0rem;
+    }
+    .save-block{
+        margin: 7% 0;
+        align-items: center;    
+        text-align: center;        
+        border-right: 0px;
     }
 }
 @media (max-width: 420px){
