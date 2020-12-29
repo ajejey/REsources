@@ -169,7 +169,7 @@ body{
    
 }
 
-#why-us{
+#about-us{
     background-color: rgb(230, 230, 230);
 }
 
@@ -192,6 +192,38 @@ body{
 .fourP-paragraph{
     text-align: justify;
 }
+
+#meet-our-team{
+    color: #fff;
+    padding: 40px 0;
+}
+
+#meet-our-team hr {
+    border-top: 1px solid #fff; 
+    width: 65%;
+}
+
+#meet-our-team img{
+    height: 230px;
+}
+
+.team-header{
+    margin-top: 20px;
+    padding-left: 120px;
+    width: fit-content;
+    background-color: orange;
+    transform: translate(-100px);
+}
+
+.team-member{
+    text-align: left;
+    padding-left: 35px;
+}
+
+.designation{
+    color: orange;
+}
+
 
 #products {
     background-color: rgb(230, 230, 230);
@@ -315,6 +347,16 @@ li{
     .contact-heading{
         margin-bottom: 0;
         margin-top: 3rem;
+    }
+    .team-member{
+        text-align: center;
+        padding: 1.5rem;
+    }
+    #meet-our-team hr {
+        width: 0%;
+    }
+    .designation{
+        margin-bottom: 0rem;
     }
 }
 @media (max-width: 420px){
