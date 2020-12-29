@@ -357,6 +357,9 @@ li{
     #title{
         padding: 20vh 0 100px;
     }
+    .solutions-images{        
+        margin: 40px 0;
+    }
 }
 @media (max-width: 768px){
     .container-fluid{
@@ -412,6 +415,7 @@ li{
         text-align: center;        
         border-right: 0px;
     }
+    
 }
 @media (max-width: 420px){
     .container-fluid{
