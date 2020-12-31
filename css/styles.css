@@ -182,7 +182,7 @@ body{
 
 .wood-log{
     margin: 7% 0;
-    background-image: url(../images/wooden-logs-in-forest.jpg);
+    background-image: url(../images/wooden-logs-in-forest1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 600px;
@@ -254,17 +254,17 @@ body{
 .product-intro{
     background-color: rgb(0, 0, 0) ;
     color: #fff;
-    padding: 80px 100px;
+    padding: 80px 80px;
 }
 
 .products-heading{
     background-color: orange;
-    padding-left: 100px;
-    transform: translate(-100px, 0px);
+    padding-left: 80px;
+    transform: translate(-80px, 0px);
 }
 
 .product-features{
-    padding: 80px 100px;
+    padding: 80px 80px;
 }
 
 li{
@@ -280,6 +280,10 @@ li{
     height: 200px;
 }
 
+#solutions h2{
+    color: orange;
+}
+
 .solutions-description{
     padding: 40px;
 }
@@ -288,6 +292,7 @@ li{
     background-color:rgb(230, 230, 230);
     text-align: center;
     padding: 40px;
+    align-items: center;
 }
 
 #testimonials{    
@@ -352,7 +357,7 @@ li{
     background: rgba(46, 46, 46, 0.3) ;    
     /* border-radius: 1em; */
     border-radius: 2em;
-    backdrop-filter: blur(15px);
+    backdrop-filter: blur(25px);
     border: solid 2px transparent;
     background-clip: padding-box;
     box-shadow: 10px 10px 10px  rgba(184, 133, 125, 0.03);
@@ -366,6 +371,13 @@ li{
     height: 100px;
     margin-left: 100px;
 }
+
+.social-media-icons{
+    font-size: 2rem; 
+    margin-right: 10px;
+    color: #fff;
+}
+
 
 @media (max-width: 991px){
     
